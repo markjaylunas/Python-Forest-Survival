@@ -1,0 +1,39 @@
+Hi Mark! After the initial check, here are my comments:
+1. I'm impressed with your work! :) Great job in thinking of a concept where you can apply what you learned
+from all the lectures through a console application using Python programming language. :)
+Your concept is about a game between a your objects (hero and wild animals). The hero will attack to the randomly
+chosen object (wild animal) coming from a list (depending on the chosen level: easy,normal,hard)
+
+2. Your program is able to manage a collection of objects! That's what I'm looking for :)
+
+3. Your objective in this project is to show OBJECT-ORIENTED PARADIGM. You did great on
+prioritizing classes and objects in your program. You also applied the four OOP concepts appropriately in your program.
+-Abstraction - check! (invoking of methods and calling of functions are greatly used in the program)
+-Encapsulation
+- check! (values of attributes are not directly changed. Changes are
+applied inside methods that you invoked on different functions)
+-Inheritance - check! (Entity() is the parent class of Player() and Enemy(); Single Inheritance is used)
+-Polymorphism
+- check (Invoking methods from other class like Entity() even if the
+object is created from Player() or Enemy() class)
+
+4. I also want to commend your codes because you did a great job in applying what you learned in
+FUNCTIONS, DECISION & LOOPING STATEMENTS and HANDLING EXCEPTIONS.
+You also researched about other modules, such as sys, system, time, and applied them to design your user interface! Great job!
+
+Other comments:
+*On hero_actions(), why is 4 a valid input? In your user interface, 0-3 are the only valid choices.
+*You have few run time errors (like when the user pressed the "Enter" key several times, "Invalid Input" was also displayed
+several times after the work of typer() is done. This should be modified because we, the programmers, are the ones who needs
+to adjust to all the user's possible actions on the program. :)
+
+
+Suggestions:
+*Kindly double check all the wordings in the user interface (rephrase/reconstruct those with grammar errors)
+*If you have enough time, you may add more designs if you want and modify some parts. Research more about unicode characters.
+(a) Try to make your program ignore the "Enter" key when the typer() function is still on going.
+or
+(b) you may stop the delay of typer() when the user pressed the "Enter" or the "Escape" key (but also put a context
+above or below something like "Press ENTER/ESCAPE blah blah blah......" ;)
+
+If this is your final project, your score would be 22.
